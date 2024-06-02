@@ -63,7 +63,7 @@ export const Detail = () => {
             <Link to="/" className='fixed z-10 text-4xl text-black bg-white m-3 md:m-5 rounded-full'><HiChevronLeft /></Link>
 
             {/* poster */}
-            <div className='relative h-auto md:h-[82vh] flex justify-center'>
+            <div className='relative h-auto md:h-[82vh] bg-[#91adf4] flex justify-center'>
               <div className='h-full w-full shadowbackdrop absolute'></div>
               <h1 className='text-white absolute bottom-0 p-10 text-2xl md:text-6xl font-bold text-center'>{moviedet.original_title}</h1>
               {moviedet.backdrop_path === null ? <img src={noimage} className='h-full w-full' /> : <img src={"https://image.tmdb.org/t/p/original/" + moviedet.backdrop_path} className='h-full w-full' />}
