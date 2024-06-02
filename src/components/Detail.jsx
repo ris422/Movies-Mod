@@ -82,7 +82,7 @@ export const Detail = () => {
               <div className='flex justify-center flex-wrap'>
                 {moviegenres.map((tag) => (
                   <>
-                    <div key={tag.id} className='text-white font-semibold bg-gray-800 rounded-full px-4 py-1 m-2'>{tag.name}</div>
+                    <div key={tag.id} className='text-white font-semibold bg-blue-600/30 border-2 border-blue-700 rounded-full px-4 py-1 m-2'>{tag.name}</div>
                   </>
                 ))}
               </div>
